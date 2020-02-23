@@ -1,0 +1,157 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color:#ECF0F1;
+}
+.headings{
+	position: sticky;
+	top: 0;
+	background: transparent;
+	background: rgba(251, 252, 252,0.99);
+	z-index: 3;
+	margin: -15px -20px -10px -20px;
+}
+.main-part{
+position: flex;
+z-index:1;
+clear: both;
+padding-top: 30px;
+}
+.logo{
+	float: left;
+	width: 200px;
+	height: 60px;
+
+}
+
+.nav-list{
+	text-decoration: none;
+	float: right;
+	margin-top: 10px;
+
+}
+.subscription{
+	
+	margin-top: 20px;
+	text-align: center;
+}
+a{
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+}
+a:hover{
+	font-size: 18px;
+	color: black;
+}
+input{
+	padding: 5px 100px 6px 10px;
+}
+button{
+	padding: 8px 15px; 
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #AAB7B8;
+}
+button:hover{
+	background-color: blue;
+	opacity: .8;
+	color: white;
+}
+.reason, .testimony{
+	width: 700px;
+	margin: 0 auto;
+}
+.why{
+	position: relative;
+}
+.reason i{
+	position: absolute;
+	left: 230px;
+	color: #2874A6;
+}
+h3{
+	font-weight: 600;
+}
+.testimony{
+	text-align: center;
+}
+.products{
+
+}
+
+.product{
+	width: 400px;
+	float: left;
+	margin: 20px;
+	animation-name: slide;
+	animation-duration: 1s;
+}
+.product:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+	
+h4, h5, button{
+	text-align: center;
+}
+h4{
+	font-size: 23px;
+}
+h5{
+	font-size: 20px;
+}
+[type="submit"]{
+	background-color: white;
+	margin-left: 150px;
+	font-size: 16px;
+	padding: 10px;
+	border: 1px solid #909497;
+	border-radius: 10px;
+}
+[type="submit"]:hover{
+	border-radius: 5px;
+	border: 1px solid blue;
+	opacity: .9;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.copy{
+	float: right;
+	margin: 50px 10px 20px 0px;
+}
+.social-links{
+	float: left;
+	margin: 50px 10px 20px 0px;
+}
+.face{
+	color: #3b5999;
+}
+.twi{
+	color: #55acee;
+}
+.ig{
+	color: #e4405f;
+}
+.you{
+	color: #cd201f;
+}.plus{
+	color: #dd4b39;
+}
+.mail{
+	color:#2980B9;
+}
+span{
+font-size: 20px;
+}
+.surprised{
+	color:#3498DB;
+}
+.sadness{
+	color: red;
+	
+}
+video{
+	outline: none;
+}

@@ -1,0 +1,29 @@
+.price{
+	text-align: center;
+}
+.prices{
+	width: 600px;
+	margin: 0 auto;
+}
+th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
+th{
+	height: 50px;
+	text-align: left;
+}
+td, th{
+	border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.title{
+	background-color:#4CAF50;
+	color: white;
+}

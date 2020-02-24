@@ -32,7 +32,7 @@ function checkPasswordMatch(input1, input2){
 	}
 }
 function checkRequired(inputArr){
-	inputArr.map(function(input){
+	inputArr.forEach(function(input){
 		if(input.value.trim()===''){
 		showError(input, `${getFieldName(input)} is Required`);
 		}else{

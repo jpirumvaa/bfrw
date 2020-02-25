@@ -12,7 +12,7 @@ function showError(input, message){
 	window.location="fail.html"
 }
 
-function showSuccess(input,){
+function showSuccess(input){
 	const formControl= input.parentElement;
 	formControl.className= 'form-control success'
 	window.location="buyfromrwanda.html"
@@ -29,10 +29,12 @@ function checkEmail(input){
 function checkPasswordMatch(input1, input2){
 	if(input1.value!==input2.value){
 		showError(input2, 'Passwords do not match')
+	}else{
+		showSuccess(input)
 	}
 }
 function checkRequired(inputArr){
-	inputArr.forEach(function(input){
+	inputArr.map(function(input){
 		if(input.value.trim()===''){
 		showError(input, `${getFieldName(input)} is Required`);
 		}else{
